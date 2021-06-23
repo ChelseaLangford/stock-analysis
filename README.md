@@ -134,4 +134,24 @@ To determine just how much faster this refactored code runs, a Timer was added t
 
 Original code run time:
 
-![2018_Stock_Analysis](Resources/2018_Stock_Analysis.png)
+![Original_Code_Run_Time](Resources/Original_Code_Run_Time.png)
+
+Refactored code run time:
+
+![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)
+
+The refactored code shaved off more than half a second in run time, but that is actually equates to an efficiency increase of more than 400%! This could make a big difference to the overall run time with a much larger data set. 
+
+## Summary
+
+### Why Refactor Code? 
+Through this exercise, I've learned that a major benefit of refactoring code is increased efficiency and speed. While this may seem the most tangible benefit, additional benefits include easier comprehension of code. This makes the code more user friendly and could prove essential if the code ownership transfers to a new person. Additionally, simplfying code with variables and fewer steps will allow the code to be more easily transferred and utilized in new data sets.
+
+I do also see some cons to refactoring code. For one, if you already have code that works, why fix it? I think the main takeaway is not to update code just for the sake of it, since refactoring code could add a lot more time to the overall project. However, if you see that your code is running slowly or you're having a hard time reading your own code, it may be a good idea to improve on it. Finally, refactoring code could cause code that was running smoothly before to suddenly output errors. There is always the risk of introducing new mistakes into the code even while trying to simplify it. Again, it would be wise to determine the benefits of refactoring your code before setting out to do so. 
+
+### Why Refactor This Script in Particular? 
+If you remember, the initial code for this script included a loop that read over all of the rows 12 separate times to generate the analysis for each stock. This is a classic example of code repeating itself, which is best to avoid whenever possible. If code is repeating itself, there is probably a simpler way to write it. The refactored code simplified the loop which made the overall script easier to transfer to other data sets that might be larger. 
+
+While there was a clear, measurable benefit to improving the code, this was not a simple process. Simplfying the overall code required more advanced coding practices, including the addition of multiple arrays. Figuring out the proper solution took a fair amount of time, which was sometimes concerning given that the original code did work fine. The additional time spent and the introduction of multiple errors before finding the solution was a downside, but seeing the final reduction in overall time to run the code was a satisfying conclusion to this project.
+
+
