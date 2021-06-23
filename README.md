@@ -65,6 +65,7 @@ After setting variables for the starting price and ending price of the stocks, a
  With the output of this script, I was able to compare the stock return for the company my client was interested in against the subset of similar companies for both the years 2017 and 2018. 
  
  Here's the analysis for 2017:
+ 
  ![2017_Stock_Analysis](Resources/2017_Stock_Analysis.png)
  
  This was a high performing year for green energy companies in general. It's no wonder my client's parents were interested in investing in DQ stock, given that it had the highest return of all the companies 2017 at 199.4%. Additionally, it had the lowest overall volume traded of all companies, suggesting that there was room to enter the market and make a profit on this stock. Only one company, TERP, saw a negative return in 2017, suggesting that investing in this industry would be a relatively safe decision. 
@@ -72,6 +73,7 @@ After setting variables for the starting price and ending price of the stocks, a
  However, it was a good idea for my client to suggest that we compare multiple years' of data to see how returns compared year over year. After running the same analysis for 2018, the results looked quite different. 
  
  Here's the analysis for 2018:
+ 
  ![2018_Stock_Analysis](Resources/2018_Stock_Analysis.png)
  
  2018 was comparatively a much lower-performing year for these green energy companies. While the volume of stock traded for DQ increased in 2018, the return decreased dramatically, seeing a negative overall return of -62.6% for the year. TERP, the company with the lowest performing stock in 2017, continued to have a negative return in 2018. TERP seems like a safe option to rule out for investing based on this data. And while DQ seemed promising in 2017, the 2018 data shows that solely investing in DQ stock may not yield the return my client's parents were anticipating. Instead, ENPH and RUN stock seem like the best options, given that they were the only companies in this group to show a positive return in 2018, and a healthy one, too, at over 80% for both. Both companies had positive returns in 2017 as well. 
@@ -131,3 +133,5 @@ Next i
 To determine just how much faster this refactored code runs, a Timer was added to the code which generated a message box with the overall time required to run the analysis from start to finish. This was added to both the old and new code to compare results. 
 
 Original code run time:
+
+![2018_Stock_Analysis](Resources/2018_Stock_Analysis.png)
